@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-rows: 200px 300px 150px;
+  grid-template-columns: 30% 70%;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  gap: 5px;
+}
+.box {
+  border-radius: 15px;
+}
+.box-1 {
+  grid-area: header;
+  background-color: lightblue;
+}
+.box-2 {
+  grid-area: main;
+  background-color: yellow;
+}
+.box-3 {
+  grid-area: sidebar;
+  background-color: brown;
+}
+.box-4 {
+  grid-area: footer;
+  background-color: blueviolet;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header p {
+  margin-left: 25px;
+}
+.header p:hover {
+  color: white;
+  cursor: pointer;
+}

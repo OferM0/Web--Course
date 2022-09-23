@@ -1,0 +1,27 @@
+body {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(83, 180, 174, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+table {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border: 4px solid black;
+  height: 400px;
+  width: 400px;
+}
+.bluer {
+  background-color: blue;
+  color: white;
+}
+.whiter {
+  background-color: white;
+}
+.greyr {
+  background-color: grey;
+}

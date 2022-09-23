@@ -1,0 +1,93 @@
+body {
+  height: 100vh;
+  width: 100wh;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  margin: auto;
+  display: block;
+  width: 500px;
+  height: 20px;
+  background-color: bisque;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+div > div {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box1:hover {
+  transform: rotate(320deg);
+  transition: 2s;
+}
+
+.box2:hover {
+  transform: scale(1.3, 0.4);
+}
+
+.box3:hover {
+  animation: nice-animation linear infinite;
+  animation-duration: 2s;
+  animation-delay: 0.1s;
+}
+
+.box4:hover {
+  transform: rotate(360deg);
+}
+@keyframes nice-animation {
+  0% {
+    transform: scale(1);
+    background-color: aqua;
+  }
+  25% {
+    transform: scale(1.3);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(50deg);
+    background-color: burlywood;
+    color: aliceblue;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40%;
+  }
+  .mobile {
+    margin: auto;
+    display: block;
+    width: 500px;
+    height: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .desktop {
+    display: none;
+  }
+}

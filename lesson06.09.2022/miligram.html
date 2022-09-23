@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/miligram.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" autofocus maxlength="12" minlength="2" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+        </div>
+
+        <div class="form-group">
+          <label for="">age</label>
+          <input type="number" value="16" />
+        </div>
+
+        <div class="form-group">
+          <label for="">Company Name</label>
+          <input type="text" disabled value="Tsionet" />
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Notes</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="countries">Country</label>
+          <select>
+            <option value="1">United States</option>
+            <option value="3">Canada</option>
+            <option value="4">China</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="password" name="subject">Password</label>
+          <input type="password" />
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox" name="subject" />
+          <label class="label-inline">C</label>
+        </div>
+
+        <div class="form-group">
+          <input type="radio" name="subject" />
+          <label class="label-inline">JAVA</label>
+        </div>
+
+        <div class="form-group">
+          <input type="range" min="0" max="100" value="85" />
+        </div>
+
+        <div class="form-group">
+          <input type="file" accept=".jpg, .mp3" multiple />
+        </div>
+
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="date" />
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
