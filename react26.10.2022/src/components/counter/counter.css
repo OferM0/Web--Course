@@ -1,0 +1,9 @@
+.spacing {
+  margin: 5px;
+}
+.counterText {
+  font-weight: bold;
+}
+.hidden {
+  display: none;
+}
