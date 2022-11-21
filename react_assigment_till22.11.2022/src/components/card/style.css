@@ -1,0 +1,12 @@
+.list-image {
+  width: 200px;
+  height: 200px;
+}
+
+.list-item-container {
+  display: flex;
+}
+.content {
+  overflow: auto;
+  margin-left: 20px;
+}

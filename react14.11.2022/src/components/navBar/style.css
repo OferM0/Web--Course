@@ -1,0 +1,32 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.nav {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  list-style: none !important;
+  background-color: bisque !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  height: 50px !important;
+}
+
+ul a {
+  opacity: 0.7 !important;
+  text-decoration: none !important;
+  color: brown !important;
+  font-size: large !important;
+  font-weight: 600 !important;
+}
+
+a:visited {
+  color: brown !important;
+}
+
+a:hover {
+  opacity: 1 !important;
+  cursor: pointer !important;
+}

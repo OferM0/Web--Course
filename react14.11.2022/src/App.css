@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main !important;
+  background-color: aliceblue !important;
+  height: calc(100vh - 150px) !important;
+  overflow-x: scroll;
+}
+
+.footer {
+  grid-area: footer !important;
+  background-color: rgb(46, 45, 45) !important;
+  height: 100px !important;
+}

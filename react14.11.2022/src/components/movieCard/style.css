@@ -1,0 +1,10 @@
+.myCard {
+  overflow-x: scroll !important;
+  width: 300px !important;
+  height: 600px !important;
+  margin: 15px !important;
+}
+
+.myImage {
+  height: 300px !important;
+}

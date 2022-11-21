@@ -1,0 +1,10 @@
+.filterBtn {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.filter {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 0px;
+}
