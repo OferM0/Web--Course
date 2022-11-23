@@ -1,0 +1,16 @@
+.searchBar {
+  margin-bottom: 45px !important;
+}
+
+button {
+  background-color: rgb(101, 148, 213) !important;
+  color: white !important;
+}
+
+button:hover {
+  background-color: rgb(25, 86, 173) !important;
+}
+
+button:active {
+  transform: scale(1.1) !important;
+}
