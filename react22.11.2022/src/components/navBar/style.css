@@ -1,0 +1,19 @@
+.add {
+  margin-left: 20px !important;
+  width: 100px !important;
+  height: 60px !important;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.total {
+  background-color: aquamarine;
+  width: 35px;
+  border-radius: 30px;
+}
