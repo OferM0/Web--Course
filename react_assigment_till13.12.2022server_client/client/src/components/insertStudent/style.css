@@ -1,0 +1,13 @@
+.container2 {
+  margin-top: 100px !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.inp {
+  width: 400px !important;
+  margin-bottom: 15px !important;
+}

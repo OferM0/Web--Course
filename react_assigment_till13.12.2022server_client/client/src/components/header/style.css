@@ -1,0 +1,24 @@
+.container {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100wh !important;
+  height: 50px !important;
+  background-color: #6294c3 !important;
+  align-items: center !important;
+  justify-content: space-evenly !important;
+}
+
+a {
+  width: 200px;
+  border-radius: 5px;
+  text-decoration: none !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+}
+
+a:hover {
+  background-color: #d0def1 !important;
+}
